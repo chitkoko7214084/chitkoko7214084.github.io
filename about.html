@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About - Computer Science Spring Reception 2024</title>
+
+    
+    <style>
+      
+        .container {
+            width: 600px;
+            height: 280px;
+            border: 2px solid rgb(231,231,231); /* Green border */
+            padding: 5px;
+            background-color: rgb(186,12,47); /* Light grey background */
+        }
+
+        .container h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .yellow-bg {
+            background-color: yellow;
+            float: left;
+            width: 200px;
+            padding: 10px;
+            margin-right: 10px 0 0;
+        }
+
+        .orange-bg {
+            background-color: orange;
+            position: absolute;
+            top: 110px;
+            left: 200px;
+            width: 200px;
+            padding: 10px;
+        }
+
+        .orange-bg p {
+            margin: 0;
+        }
+
+        .custom-bg {
+            background-color: rgb(255, 80, 0);
+            color: white;
+            float: right;
+            width: 200px;
+            padding: 10px;
+            margin-right: 40px;
+            margin-top: 20px;
+        }
+
+        .link_box {
+            width: 100px;
+            height: 50px;
+            text-decoration: aliceblue;
+            background-color: rgb(186,12,47);
+            box-shadow: whitesmoke;
+            position: absolute;
+            top: 35%;
+            left: 1%;
+            animation: pulse 3s infinite;
+        }
+
+        @keyframes pulse {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.1); }
+    100% { -webkit-transform: scale(1); }
+}
+
+        .dark-theme{
+            background-color: #222;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h2>About</h2>
+        <div class="yellow-bg">
+            <p>Spring Reception is organized and partially funded by the Computer Science Department annually in April. It is open to students, faculty, staff, family, friends, alumni, and businesses.</p>
+        </div>
+        <div>
+            <p>Students can reserve spots to showcase their capstone and research projects. They do short presentations and display posters about their work at a networking reception.</p>
+        </div>
+        <div class="orange-bg">
+            <p>The alumni share their insights at the panel discussions.</p>
+        </div>
+        <div class="custom-bg">
+            <p>The event's idea is to allow the students to network with peers and alumni.</p>
+        </div>
+    </div>
+
+    <div class="link_box">
+
+    <p><a href="index.html">Back to Home</a></p>
+    </div>
+
+    <button class="fa fa-moon-o" onclick="toggleDarkMode()">Click me</button>
+
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-theme');
+        }
+    </script>
+
+
+
+</body>
+
+</html>

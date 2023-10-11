@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Register Now - Computer Science Spring Reception 2024</title>
+    <link rel="stylesheet" href="style_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<!-- Header Section with Ball State University Logo -->
+<header>
+    <img src="BSU-logo-horiz-WHITE.png" alt="Ball State University Logo" id="logo" width="350" height="100">
+    <h1>Computer Science Spring Reception 2024</h1>
+</header>
+<body>
+    
+    <form><button class="submit" formaction="index.html"><span>Back to Home</span></a></button>
+</form>
+
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstname" class="required">First Name:</label>
+                <input type="text" id="firstname" name="firstname" class="input-field" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastname" class="required">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" class="input-field" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="required">Email Address:</label>
+                <input type="email" id="email" name="email" class="input-field" required>
+            </div>
+
+            <div class="form-group">
+                <label>Are you attending the Spring Reception?</label><br>
+                <input type="radio" id="yes" name="attendance" value="yes"> Yes
+                <input type="radio" id="no" name="attendance" value="no"> No
+                <input type="radio" id="maybe" name="attendance" value="maybe"> Maybe
+            </div>
+
+            <div class="form-group">
+                <label>If attending, are you interested in displaying a poster at the banquet?</label><br>
+                <input type="radio" id="yesPoster" name="poster" value="yes"> Yes
+                <input type="radio" id="noPoster" name="poster" value="no"> No
+            </div>
+
+            <div class="form-group">
+                <label for="additionalGuests">Number of Additional Guests:</label>
+                <select id="additionalGuests" name="additionalGuests" class="input-field">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message (Optional):</label><br>
+                <textarea id="message" name="message" rows="4" class="input-field"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <img src="BSU-logo-horiz-WHITE.png" alt="Ball State University Logo">
+    <p>&copy; 2024 Computer Science Department, Ball State University. All rights reserved.</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/ballstate" target="_blank" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/BallState" target="_blank" title="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/officialballstate" target="_blank" title="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/ballstateuniversity/" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/school/ball-state-university/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.tiktok.com/@ballstate/" target="_blank" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </footer>
+
+</body>
+
+</html>

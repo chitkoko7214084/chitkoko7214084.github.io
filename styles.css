@@ -1,0 +1,91 @@
+/* Apply styles to the body, header, nav, main, and footer elements */
+body {
+    background-color: #f0f0f0; /* Background color for the entire page */
+    font-family:Arial, Helvetica, sans-serif; /* Font style for the text */
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+}
+/* CSS to target the logo image inside the header */
+header #logo {
+    margin-left: -auto;
+}
+
+header{
+    background-color:rgb(186,12,47);/* Background color for the header and footer */
+    color: rgb(231,231,231); /* Text color for the header and footer */
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Style for navigation container */
+.nav-container {
+    max-width: none; /* Set the maximum width for the navigation container */
+    margin: 0 auto;
+    background-color: #444; /* Background color for the navigation menu */
+    padding: 10px; /* Center the navigation container on the page */
+}
+
+/* Style for navigation menu */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color:rgb(231,231,231);
+    /* Optional: Add styles for the links (color, hover effects, etc.) */
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+ /* Set the video as the background, and cover the entire viewport */
+ video {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Add styles for other content on top of the video */
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+footer img {
+    width: 100px; /* Adjust the width of the logo in the footer */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(186,12,47);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Add this CSS to your existing styles.css file or in a <style> tag inside the <head> of your HTML document */
+.social-icons a i {
+    color: rgb(231,231,231); /* Change this to your desired color value */
+    font-size: 30px; /* Adjust the font size of the icons if needed */
+    margin-right: 20px; /* Add some spacing between the icons */
+}
+

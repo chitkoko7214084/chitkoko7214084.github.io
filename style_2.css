@@ -1,0 +1,83 @@
+header #logo {
+    margin-left: -auto;
+}
+
+header{
+    background-color:rgb(186,12,47);/* Background color for the header and footer */
+    color: rgb(231,231,231); /* Text color for the header and footer */
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(186,12,47);
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgb(231,231,231);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.required::after {
+    content: "*";
+    color:rgb(186,12,47);
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: rgb(186,12,47);
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(186,12,47);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    transform: scale(1.2);
+    background-color: #444;
+}
+
+footer img {
+    width: 100px; /* Adjust the width of the logo in the footer */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(186,12,47);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Add this CSS to your existing styles.css file or in a <style> tag inside the <head> of your HTML document */
+.social-icons a i {
+    color: rgb(231,231,231); /* Change this to your desired color value */
+    font-size: 30px; /* Adjust the font size of the icons if needed */
+    margin-right: 20px; /* Add some spacing between the icons */
+}
+
